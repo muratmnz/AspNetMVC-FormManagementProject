@@ -1,0 +1,47 @@
+﻿@model FormManagementProject.DataAccess.Models.Users
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height:100vh">
+            <div class="col-4">
+                <div class="car">
+                    <div class="card-body">
+                        <h2>Login Form</h2>
+                        @ViewBag.Message
+                        @using (Html.BeginForm("Login", "Security", FormMethod.Post))
+                        {
+                            <div class="form-group">
+                                <input name="username" type="text" placeholder="User Name" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <input name="password" type="password" placeholder="Password" class="form-control" />
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="Login" />
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+</html>
+
+<h2>Login</h2>
+

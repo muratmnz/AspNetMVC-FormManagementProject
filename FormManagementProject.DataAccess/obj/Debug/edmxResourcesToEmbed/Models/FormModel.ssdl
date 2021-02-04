@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FormDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Form">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="100" />
+    <Property Name="createdAt" Type="datetime" />
+    <Property Name="createdBy" Type="int" />
+    <Property Name="fields" Type="nvarchar(max)" />
+    <Property Name="formUserName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="formUserSurname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="formUserAge" Type="int" />
+  </EntityType>
+  <EntityType Name="FormUser">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="surname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="age" Type="int" />
+  </EntityType>
+  <EntityContainer Name="FormDbModelStoreContainer">
+    <EntitySet Name="Form" EntityType="Self.Form" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FormUser" EntityType="Self.FormUser" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

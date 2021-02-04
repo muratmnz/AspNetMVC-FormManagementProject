@@ -1,0 +1,12 @@
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\bin\Debug\FormManagementProject.DataAccess.dll.config
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\bin\Debug\FormManagementProject.DataAccess.dll
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\bin\Debug\FormManagementProject.DataAccess.pdb
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\obj\Debug\FormManagementProject.DataAccess.csprojAssemblyReference.cache
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\obj\Debug\FormManagementProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\obj\Debug\FormManagementProject.DataAccess.csproj.CopyComplete
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\obj\Debug\FormManagementProject.DataAccess.dll
+C:\Users\MuratMNZ\source\repos\FormManagementProject\FormManagementProject.DataAccess\obj\Debug\FormManagementProject.DataAccess.pdb
